@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "d2de4de58ad7dbe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "43b8a8b8cecd1c44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dde247beec360d62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "199e66bea155fcdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "460464bdf49f8d59",
+    "type": "split",
+    "children": [
+      {
+        "id": "db1de6209dbbf1ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4f72c5a61b1cded",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01051c39123dae60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2026696fb376dc0f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "15073d17d30b6090",
+    "type": "split",
+    "children": [
+      {
+        "id": "630dd22bd0c35a45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1efd7b6113dfda2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "148084020ace6778",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52c1f674d5565bd3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71918111bb2f68a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/Setup.md"
+              }
+            }
+          },
+          {
+            "id": "cd0777ad7a3499ce",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "199e66bea155fcdd",
+  "lastOpenFiles": [
+    "Git/Setup.md",
+    "Unity/Player Movement.md",
+    "Untitled.md",
+    "Resources.md",
+    "Git/GitHub-Flow-1.png",
+    "Git/touch move.gif",
+    "touch.md",
+    "Git/# ff.md"
+  ]
+}
