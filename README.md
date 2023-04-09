@@ -1,5 +1,5 @@
-# Born KB #
-*Born's Knowledge Base*
+# Game Dev. KB #
+*General Game development's Knowledge Base*
 
 ![Fixing Problems](/_res/Comics/fixingProblems.png)
 
@@ -14,9 +14,3 @@ Git
 
 ### Unity
 - [XR](/Unity/Unity%20XR.md)
-
-### BornCore
-- [BornCore.Networking.Mirror](/BornCore/BornCore.Networking.Miror.md)
-
-### Projects
-- [Aviation](/Projects/Aviation/Aviation%20Network%20Setup.md)
