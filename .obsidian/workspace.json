@@ -13,13 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Merge Conflicts.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b417cc8ed04ca8f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "871d0a266e4348b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
+          },
+          {
+            "id": "7b64d69a0dbf4dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity/OpenUPMSetup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7153f04b0e523f4f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          },
+          {
+            "id": "54c9709a1a34544e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72c622e649af2e39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Change logs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "565ea8855673acec",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -64,12 +137,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "12470c93fdce0bab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 240.5
   },
   "right": {
     "id": "7f53b0459fb8865f",
@@ -85,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Merge Conflicts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +182,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Merge Conflicts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +203,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git/Merge Conflicts.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,22 +232,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "07ee3704a1eb23fa",
+  "active": "565ea8855673acec",
   "lastOpenFiles": [
-    "Git/SSH Setup.md",
     "Git/Repo Setup.md",
-    "Untitled.canvas",
-    "README.md",
-    "Git/Merge Conflicts.md",
-    "Oculus/ADB.md",
-    "BornCore/BornCore.Networking.Miror.md",
-    "Networking/Windows Firewall Setup.md",
-    "Third Party Tools & Plugins/MultiPlay.md",
-    "Third Party Tools %26 Plugins/MultiPlay.md",
+    "Needle Glitch Package.md",
+    "Verdaccio/Unity Package Manager Verdaccio.md",
     "Unity/Common Scripts/Player Movement.md",
-    "2023-02-15.md",
-    "Untitled 1.canvas",
-    "Unity/Unity XR.md",
-    "Projects/Aviation/Aviation Network Setup.md"
+    "Git/Package Setup.md",
+    "Git/Change logs.md",
+    "Git/New Project.md",
+    "Git/Merge Conflicts.md",
+    "Git/SSH Setup.md",
+    "Oculus/ADB.md",
+    "Third Party Tools & Plugins/MultiPlay.md",
+    "README.md",
+    "Untitled.canvas",
+    "Verdaccio/Verdaccio Setup.md",
+    "Verdaccio/Unity Setup.md",
+    "Verdaccio/Publish Package.md",
+    "Verdaccio",
+    "Networking/Azure Aviation Servers.md",
+    "Unity/OpenUPMSetup.md",
+    "Projects/Aviation/Aviation Network Setup.md",
+    "OpenUPM/OpenUPMSetup.md",
+    "BornCore/BornCore.Networking.Miror.md"
   ]
 }
