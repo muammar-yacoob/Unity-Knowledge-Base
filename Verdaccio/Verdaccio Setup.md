@@ -43,14 +43,14 @@ Add or update the following:
 
 
 ```
-publicPath: https://upm.born.net/
+publicPath: https://upm.spark.net/
 
 packages:
     '@*/*':
     # scoped packages
-    access: github/org/Born-Studios
-    publish: github/org/Born-Studios/team/Repo-Admins
-    unpublish: github/org/Born-Studios/team/Repo-Admins
+    access: github/org/Spark-games
+    publish: github/org/Spark-games/team/Repo-Admins
+    unpublish: github/org/Spark-games/team/Repo-Admins
     # proxy: npmjs
     
     '**':
@@ -59,12 +59,12 @@ packages:
     #
     # you can specify usernames/groupnames (depending on your auth plugin)
     # and three keywords: "$all", "$anonymous", "$authenticated"
-    access: github/org/Born-Studios
+    access: github/org/Spark-games
 
     # allow all known users to publish/publish packages
     # (anyone can register by default, remember?)
-    publish:  github/org/Born-Studios/team/Repo-Admins
-    unpublish:  github/org/Born-Studios/team/Repo-Admins
+    publish:  github/org/Spark-games/team/Repo-Admins
+    unpublish:  github/org/Spark-games/team/Repo-Admins
 
     # if package is not available locally, proxy requests to 'npmjs' registry
     # proxy: npmjs
@@ -101,7 +101,7 @@ Type=simple
 Restart=on-failure
 User=azureuser
 ExecStart=/home/azureuser/.nvm/versions/node/v18.16.1/bin/verdaccio --config /home/azureuser/verdaccio/config.yaml
-Environment="VERDACCIO_PUBLIC_URL=https://upm.born.net"
+Environment="VERDACCIO_PUBLIC_URL=https://upm.spark.net"
 
 [Install]
 WantedBy=multi-user.target
@@ -141,17 +141,17 @@ Note the outputs and use in the nginx configuration.
 ```
 server {
     listen      80;
-    server_name upm.born.net;
+    server_name upm.spark.net;
     return 301 https://$server_name$request_uri;
 }
 
 
 server {
     listen 443 ssl http2;
-    server_name upm.born.net;
+    server_name upm.spark.net;
     
-    ssl_certificate /etc/letsencrypt/live/upm.born.net/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/upm.born.net/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/upm.spark.net/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/upm.spark.net/privkey.pem;
     
     ssl on;
     ssl_session_cache  builtin:1000  shared:SSL:10m;

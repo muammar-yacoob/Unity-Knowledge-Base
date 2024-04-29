@@ -46,6 +46,6 @@ Using UnityPackage: Drag and drop the Release-Latest.unitypackage file into your
 Using OpenUPM: Open the terminal in your IDE and execute the following commands to install the OpenUPM CLI (if not already installed), search for your package, and add it to your project:
 ``` bash
 npm install -g openupm-cli
-openupm search net.born.ai
-openupm add net.born.ai
+openupm search net.spark.ai
+openupm add net.spark.ai
 ```

@@ -3,7 +3,7 @@ This is a brief guide to testing an XR enabled Unity project over a local networ
 
 ## Setup
 ### Pre-requisites:
-[[BornCore.Networking.Miror]]
+[[SparkCore.Networking.Miror]]
 [[Unity XR]]
 [[MultiPlay]]
 
@@ -30,7 +30,7 @@ IS_SERVER = true
 
 ### 2. Unity Editor (Teacher Simulation)
 1. in the App Scene, Select the `AppSceneBoot` and in the inspector, uncheck `Override Server`
-2. In unity, goto: `Born > Scene Boot Configuration` and select `Local Session` from `Live Sessions` and click `Save`
+2. In unity, goto: `SparkGames > Scene Boot Configuration` and select `Local Session` from `Live Sessions` and click `Save`
 ![Local Session](_res/Aviation/LocalSessionEditor.jpg)
 3. Turn on your paired Oculus headset with AirLink on and hit Play on Unity Editor to join as a teacher
 

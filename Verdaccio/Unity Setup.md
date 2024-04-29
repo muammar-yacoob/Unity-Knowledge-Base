@@ -4,13 +4,13 @@
 
 ## Get your access token
 
-Navigate to the URL of your registry and **Login**: https://upm.born.net/
+Navigate to the URL of your registry and **Login**: https://upm.spark.net/
 
 Hit the settings icon and then `npm`.
 
 Find your auth token from this line:
 
-`npm config set //upm.born.net/:_authToken "<this is your auth token>"`
+`npm config set //upm.spark.net/:_authToken "<this is your auth token>"`
 
 
 ## Access the Registry in Unity
@@ -22,7 +22,7 @@ Create or edit:
 `C:/Users/<me>/.upmconfig.toml`
 
 ```
-[npmAuth."https://upm.born.net"]
+[npmAuth."https://upm.spark.net"]
 
 token = "<your auth token>"
 
@@ -47,10 +47,10 @@ In your project `manifest.json` add the following:
       ]
     },
     {
-      "name": "upm.born.net",
-      "url": "https://upm.born.net/",
+      "name": "upm.spark.net",
+      "url": "https://upm.spark.net/",
       "scopes": [
-        "com.born"
+        "com.spark"
       ]
     }
   ]
@@ -60,6 +60,6 @@ Then install packages:
 
 ```javascript
 "dependencies": {
-    "com.born.borncore": "0.10.1",
+    "com.spark.sparkcore": "0.10.1",
 ```
 

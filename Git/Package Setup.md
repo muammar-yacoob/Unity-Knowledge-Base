@@ -1,6 +1,6 @@
 # Package Publishing and Consumption Guide #
 
-This guide will walk you through the steps to publish and consume Unity packages for Born-Studios using GitHub Packages.
+This guide will walk you through the steps to publish and consume Unity packages for Spark-games using GitHub Packages.
 
 <br>
 
@@ -10,28 +10,28 @@ First, create a `package.json` file in your Unity package root directory `Assets
 
 ``` json
 {
-  "name": "@born-studios/borncore",
+  "name": "@spark-games/sparkcore",
   "version": "0.10.1",
-  "displayName": "BornCore",
-  "description": "Core library for BornCore framework.",
+  "displayName": "SparkCore",
+  "description": "Core library for SparkCore framework.",
   "unity": "2021.3",
-  "bugs": {"url": "https://github.com/born-studios/borncore/issues"},
-  "homepage": "https://github.com/born-studios/borncore#readme",
-  "keywords": ["Born", "Core", "Framework"],
-  "author": "born-studios",
+  "bugs": {"url": "https://github.com/spark-games/sparkcore/issues"},
+  "homepage": "https://github.com/spark-games/sparkcore#readme",
+  "keywords": ["Spark", "Core", "Framework"],
+  "author": "spark-games",
   "license": "ISC",
-  "main": "Runtime/BornCore.asmdef",
+  "main": "Runtime/SparkCore.asmdef",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:born-studios/borncore.git",
-    "directory": "com.born-studios.borncore"
+    "url": "ssh://git@github.com:spark-games/sparkcore.git",
+    "directory": "com.spark-games.sparkcore"
   },
-  "publishConfig": {"registry": "https://npm.pkg.github.com/@born-studios"}
+  "publishConfig": {"registry": "https://npm.pkg.github.com/@spark-games"}
 }
 ```
 
 
-> Note: the name in `"name": "@born-studios/borncore"` should match the package name in the package .asmdf file
+> Note: the name in `"name": "@spark-games/sparkcore"` should match the package name in the package .asmdf file
 
 <br>
 
@@ -56,7 +56,7 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://npm.pkg.github.com'
-        scope: '@born-studios'
+        scope: '@spark-games'
     - run: cd Assets/Package && npm ci
     - name: Setup .npmrc file to publish to GitHub Packages
       run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" > Assets/Package/.npmrc
@@ -75,7 +75,7 @@ In the above workflow, replace `GH_PACKAGES_TOKEN` with your GitHub token that h
 To consume this package in a Unity project, you need to point npm to the correct registry for your scope. In the root of your Unity project, create a `.npmrc` file with the following line:
 
 ```less
-@born-studios:registry=https://npm.pkg.github.com/
+@spark-games:registry=https://npm.pkg.github.com/
 ```
 
-This guide should help you to set up package publishing for Born-Studios. Happy coding! 🚀
+This guide should help you to set up package publishing for Spark-games. Happy coding! 🚀

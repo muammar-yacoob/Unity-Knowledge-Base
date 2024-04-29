@@ -4,10 +4,10 @@ The package.json file:
 
 ```json
 {
-  "name": "com.born.borncore",
+  "name": "com.spark.sparkcore",
   "version": "0.10.3",
-  "displayName": "BornCore",
-  "description": "Core library for BornCore framework.",
+  "displayName": "SparkCore",
+  "description": "Core library for SparkCore framework.",
   "unity": "2022.3",
   "dependencies": {
     "com.cysharp.unitask": "2.3.3",
@@ -21,7 +21,7 @@ Github Workflow file:
 `<Project Folder>/.github/workflows/publish-package.yml`
 
 ```yaml
-name: Publish Package to Born Unity Package Manager
+name: Publish Package to Spark Unity Package Manager
 
 on:
   push:
@@ -44,14 +44,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-      - run: npm set registry https://upm.born.net/
-      - run: npm config set //upm.born.net/:_authToken "${{ secrets.NPM_AUTH_TOKEN }}"
+      - run: npm set registry https://upm.spark.net/
+      - run: npm config set //upm.spark.net/:_authToken "${{ secrets.NPM_AUTH_TOKEN }}"
       - run: npm publish
 ```
 
 ### NPM_AUTH_TOKEN
 
-Add an Actions Secret to your repository (Settings > Secrets and variables > Actions) called `NPM_AUTH_TOKEN`. The contents should be the auth token of a repository admin from https://upm.born.net
+Add an Actions Secret to your repository (Settings > Secrets and variables > Actions) called `NPM_AUTH_TOKEN`. The contents should be the auth token of a repository admin from https://upm.spark.net
 
 ## Interim/Patch Releases
 
@@ -72,4 +72,4 @@ on:
       - fix-something 
 ```
 
-When you push to your branch, the package will be published to https://upm.born.net
+When you push to your branch, the package will be published to https://upm.spark.net

@@ -28,21 +28,21 @@ Here is an example of the process in `MS Dos` but you can use `Bash` or `Windows
 Getting device socket
 
 ``` console
-D:\Born>adb shell ip route
+D:\Spark>adb shell ip route
 192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.216
 ```
 
 Connect Over WIFI: `adb connect device.ip.address:port`
 
 ``` console
-D:\Born>adb connect 192.168.1.216:5555
+D:\Spark>adb connect 192.168.1.216:5555
 connected to 192.168.1.216:5555
 ```
 
 List all connected devices:  `adb devices -l`
 
 ``` console
-D:\Born>adb devices -l
+D:\Spark>adb devices -l
 List of devices attached
 192.168.1.216:5555     device product:hollywood model:Quest_2 device:hollywood transport_id:7
 ```
@@ -50,7 +50,7 @@ List of devices attached
 Install apk: Go to your build directory and shell command `adb -s device.ip.address:port install my-android-app.apk`
 
 ``` console
-D:\Born\Resilience\Build>adb install -r resilience.apk
+D:\Spark\Resilience\Build>adb install -r resilience.apk
 Performing Streamed Install
 Success
 ```
@@ -58,13 +58,13 @@ Success
 
 Launching apk: `adb shell monkey -p "com.package.name" -c android.intent.category.LAUNCHER 1`
 ``` console
-adb shell monkey -p "net.born.resilience" -c android.intent.category.LAUNCHER 1
+adb shell monkey -p "net.spark.resilience" -c android.intent.category.LAUNCHER 1
 ```
 
 Debug a unity build: `adb logcat -e unity`. You can stop debugging by pressing [Ctrl + Break]
 
 ``` console
-D:\Born\Resilience\Build>adb logcat -e unity
+D:\Spark\Resilience\Build>adb logcat -e unity
 --------- beginning of system
 --------- beginning of tracking
 --------- beginning of main
