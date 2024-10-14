@@ -1,5 +1,5 @@
 # Unity Knowledge Base #
-*A collective knowledge for best practices in Unity 3D*
+*A curated repository of collective knowledge for optimizing development workflows and best practices in Unity 3D*
 
 ![Fixing Problems](./_res/Comics/fixingProblems.png)
 
