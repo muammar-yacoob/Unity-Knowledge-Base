@@ -1,10 +1,10 @@
-# Azure Aviation Networking Servers
+# Azure Cockpit Networking Servers
 
 ## Overview
 
 Home directory structure (`/home/azureuser` or `~`):
 - app.py
-- mirror-test/ (or Aviation-Networking-Server/)
+- mirror-test/ (or Build-Networking-Server/)
 - pull.sh
 
 
@@ -122,11 +122,11 @@ ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 2. `entrypoint.sh`
 
 ```bash
-chmod +x /root/build/Aviation.x86_64
-xvfb-run --auto-servernum --server-args='-screen 0 640x480x24:32' /root/build/Aviation.x86_64 -batchmode -nographics
+chmod +x /root/build/Build.x86_64
+xvfb-run --auto-servernum --server-args='-screen 0 640x480x24:32' /root/build/Cockpit.x86_64 -batchmode -nographics
 ```
 
-3. `build/` a folder containing the linux executable headless server, in this case named `Aviation.x86_64`
+3. `build/` a folder containing the linux executable headless server, in this case named `Cockpit.x86_64`
 
 ---
 

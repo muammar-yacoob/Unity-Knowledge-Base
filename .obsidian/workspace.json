@@ -251,9 +251,9 @@
     "Verdaccio/Unity Setup.md",
     "Verdaccio/Publish Package.md",
     "Verdaccio",
-    "Networking/Azure Aviation Servers.md",
+    "Networking/Azure Cockpit Servers.md",
     "Unity/OpenUPMSetup.md",
-    "Projects/Aviation/Aviation Network Setup.md",
+    "Projects/Cockpit/Cockpit Network Setup.md",
     "OpenUPM/OpenUPMSetup.md",
     "SparkCore/SparkCore.Networking.Miror.md"
   ]

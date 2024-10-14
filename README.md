@@ -3,11 +3,21 @@
 
 ![Fixing Problems](./_res/Comics/fixingProblems.png)
 
+
+<a href="https://youtu.be/DJUPeTDkOwE" style="vertical-align: middle;">
+    <img src="./_res/Obsidian.png" alt="Obsidian" width="50" height="50" style="vertical-align: middle;">
+<strong><span style="vertical-align: middle; ">Setup with Obsidian</span></strong>
+</a>
+<br>
+
+
+
+
 ## TOC
 ### General
 - [ADB over WiFi](/Oculus/ADB.md)
 
-Git
+### Git
 - [Git Setup](/Git/Repo%20Setup.md)
 - [New Project](/Git/New%20Project.md)
 - [Package Setup](/Git/Package%20Setup.md.md)
@@ -22,9 +32,3 @@ Git
   - [Verdaccio Server Setup](/Verdaccio/Verdaccio%20Setup.md)
   - [Unity Setup](/Verdaccio/Unity%20Setup.md)
   - [Publish Package](/Verdaccio/Publish%20Package.md)
-
-
-
-### Projects
-- [Aviation](/Projects/Aviation/Aviation%20Network%20Setup.md)
-- [Networking: Azure Aviation Servers](/Networking/Azure%20Aviation%20Servers.md)

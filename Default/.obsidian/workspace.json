@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aviation Network Setup.md",
+                "file": "Cockpit Network Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,14 +159,14 @@
   },
   "active": "dde247beec360d62",
   "lastOpenFiles": [
-    "Aviation Network Setup.md",
+    "Cockpit Network Setup.md",
     "MultiPlay.md",
     "Windows Firewall Setup.md",
     "unityeditor.md",
     "Git/Setup.md",
     "2023-02-07.md",
     "Unity/Player Movement.md",
-    "_res/Aviation/OverrideServer.jpg.md",
+    "_res/Cockpit/OverrideServer.jpg.md",
     "Unity XR.md",
     "_res/_.md"
   ]
