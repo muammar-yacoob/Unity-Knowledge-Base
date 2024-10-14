@@ -5,7 +5,7 @@
 
 
 <a href="https://youtu.be/DJUPeTDkOwE" style="vertical-align: middle;">
-    <img src="./_res/Obsidian.png" alt="Obsidian" width="50" height="50" style="vertical-align: middle;">
+    <img src="./_res/obsidian.png" alt="Obsidian" width="50" height="50" style="vertical-align: middle;">
 <strong><span style="vertical-align: middle; ">Setup with Obsidian</span></strong>
 </a>
 <br>
