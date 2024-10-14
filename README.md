@@ -1,5 +1,5 @@
-# Spark KB #
-*Spark's Knowledge Base*
+# Unity Knowledge Base #
+*A collective knowledge for best practices in Unity 3D*
 
 ![Fixing Problems](./_res/Comics/fixingProblems.png)
 
